@@ -6,14 +6,15 @@
     <link rel="stylesheet" href="form.css">
     <title>Lenguaje</title>
 </head>
-<body class="formulario">
-    <article><h1>Registrarse</h1></article>
-    <form>
-        <input type="text" name="username" placeholder="Nombre Usuario" minlength="3" maxlength="15" required>
-        <input type="email" name="email" placeholder="Email" required>    
-        <input type="password" name="password" placeholder="Contraseña" minlength="8" maxlength="20" required>
-        <input type="submit" value="Registrarse">
+<body>
+    <header class = "titulo"><h1>Registrarse</h1></header>
+    <form class="formulario">
+        <input type="text" name="username" placeholder="Nombre Usuario" minlength="3" maxlength="15" required class="inputs">
+        <input type="email" name="email" placeholder="Email" required class="inputs">    
+        <input type="password" name="password" placeholder="Contraseña" minlength="8" maxlength="20" required class="inputs">
+        <input type="submit" value="Registrarse" class = "boton">
+        <p><a href="#">¿Ya tienes cuenta?</a></p>
     </form>
-    <article><p><a href="#">¿Ya tienes cuenta?</a></p></article>
+   
 </body>
 </html>
