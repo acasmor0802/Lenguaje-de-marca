@@ -19,25 +19,42 @@
     align-items: center;
     justify-content: center;
     padding: 2%;
-    width: 80%;
     max-width: 400px;
     background-color: #6e4413;
     margin: 5% auto;
     border-radius: 4px;
     font-family: 'calibri';
     color: white;
+    gap: 1rem;
 }
 
-.inputs{
+.inputs {
     padding: 0.2rem;
-    margin: 2%;
     width: 100%;
     
 }
 
 .boton {
     padding: 0.4rem;
-    margin: 2%;
-    width: 30%;
     cursor: pointer;
+    background-color: #5a3306;
+    color: aliceblue;
+}
+
+.boton:hover {
+    transition: 0.5s;
+    background-color: bisque;
+    color: #5a3306;
+}
+
+.enlace {
+    background-color: #6e4413;
+}
+
+.volver {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    padding: 1rem;
 }

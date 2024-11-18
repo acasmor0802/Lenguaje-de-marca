@@ -7,13 +7,18 @@
     <title>Lenguaje</title>
 </head>
 <body>
-    <header class = "titulo"><h1>Iniciar Sesión</h1></header>
+    <header>
+        <a href="#" class="volver">
+            <button class="boton">Volver al inicio</button>
+        </a>
+        <h1 class = "titulo">Iniciar Sesión</h1>
+    </header>
     <form class="formulario">
         <input type="text" name="username" placeholder="Nombre Usuario" minlength="3" maxlength="15" required class="inputs">
         <input type="email" name="email" placeholder="Email" required class="inputs">    
         <input type="password" name="password" placeholder="Contraseña" minlength="8" maxlength="20" required class="inputs">
         <input type="submit" value="Registrarse" class = "boton">
-        <p><a href="#">No tienes cuenta?</a></p>
+        <p><a href="#" class="enlace">No tienes cuenta?</a></p>
     </form>
    
 </body>
