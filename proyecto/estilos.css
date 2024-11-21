@@ -1,4 +1,4 @@
-* {
+.generalfor {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -59,10 +59,71 @@
     padding: 1rem;
 }
 
+
+
+
+
+
+
+
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 5%;
+    font-family: Arial, sans-serif;
+    color: white;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-image {
+    height: 8%;
+    margin-right: 2%;
+  }
+  
+  .logo-text {
+    font-size: 1.8vw;
+    font-weight: bold;
+  }
+  
+  .actions {
+    display: flex;
+    gap: 2%;
+  }
+  
+  .sign-in,
+  .register {
+    padding: 1% 3%;
+    font-size: 1vw;
+    border: none;
+    border-radius: 0.4vw;
+    cursor: pointer;
+  }
+  
+  .sign-in {
+    background-color: #ffffff;
+    color: #16161F;
+  }
+  
+  .register {
+    background-color: #16161F;
+    color: white;
+  }
+  
+  .sign-in:hover,
+  .register:hover {
+    opacity: 0.9;
+  }
+
 .body {
     margin: 0;
-    font-family: sans-serif;
-    background-image: url('img/fondo.jpg');
+    background-image: url(img/fondo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
