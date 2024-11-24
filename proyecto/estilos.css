@@ -198,6 +198,46 @@
   color: #FF5722;
 }
 
+footer {
+  background-color: #16161F;
+  color: white;
+  padding: 2rem 1rem;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+footer section {
+  margin-bottom: 1.5rem;
+}
+
+footer h1 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #FFC107;
+}
+
+footer p {
+  font-size: 1rem;
+  margin: 0.5rem 0;
+  line-height: 1.5;
+}
+
+footer a {
+  margin: 0 0.5rem;
+  display: inline-block;
+}
+
+footer a img {
+  width: 2rem;
+  height: 2rem;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+footer a img:hover {
+  transform: scale(1.2);
+  opacity: 0.8;
+}
+
 @media (max-width: 600px) {
     .card {
         width: 90%;
