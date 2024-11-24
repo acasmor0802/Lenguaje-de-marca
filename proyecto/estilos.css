@@ -198,6 +198,16 @@
   color: #FF5722;
 }
 
+.iconos_grid a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+
+
+
+
 footer {
   background-color: #16161F;
   color: white;
