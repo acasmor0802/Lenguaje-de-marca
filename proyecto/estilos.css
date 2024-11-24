@@ -166,10 +166,14 @@
 
 .iconos_grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
   gap: 1.5rem;
   justify-items: center;
   align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 1rem;
 }
 
 .icono_item {
@@ -178,6 +182,7 @@
   font-size: 1rem;
   font-weight: bold;
   transition: transform 0.3s ease, color 0.3s ease;
+  cursor: pointer;
 }
 
 .icono_item img {
@@ -186,6 +191,11 @@
   object-fit: contain;
   margin-bottom: 0.5rem;
   border-radius: 0.5rem;
+}
+
+.icono_item:hover {
+  transform: scale(1.1);
+  color: #FF5722;
 }
 
 @media (max-width: 600px) {
