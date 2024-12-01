@@ -277,6 +277,37 @@ footer a img:hover {
     margin: 0; 
 }
 
+
+
+
+
+.personajes article {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.personajes img {
+  width: 50%; 
+  height: auto;
+  border-radius: 0.5rem;
+}
+
+.personajes p {
+  width: 50%;
+  text-align: justify;
+  font-size: 1rem;
+  line-height: 1.5;
+  word-wrap: break-word; 
+  overflow-wrap: break-word; 
+}
+
+
+
+
+
 @media (max-width: 600px) {
     .card {
         width: 90%;
