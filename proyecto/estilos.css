@@ -308,24 +308,29 @@ footer a img:hover {
 
 
 
-
 .enemigos {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
-  align-items: center;
+  justify-items: center;
+  color: #FFC107;
 }
 
 .enemigos article {
-  margin-top: 2rem;
+  margin-top: 0;
 }
 
 .enemigos h3 {
   margin-top: 0.5rem;
   font-size: 1.2rem;
+  text-align: center;
 }
 
-
+.enemigos article:hover {
+  transform: scale(1.1);
+  color: #FF5722;
+  cursor: pointer;
+}
 
 
 
