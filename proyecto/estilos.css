@@ -308,6 +308,30 @@ footer a img:hover {
 
 
 
+
+.enemigos {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+
+.enemigos article {
+  margin-top: 2rem;
+}
+
+.enemigos h3 {
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+}
+
+
+
+
+
+
+
+
 @media (max-width: 600px) {
     .card {
         width: 90%;
