@@ -295,6 +295,9 @@ footer a img:hover {
   border-radius: 0.5rem;
 }
 
+.personajes h3 {
+  color: #FFC107;
+}
 .personajes p {
   width: 50%;
   text-align: justify;
