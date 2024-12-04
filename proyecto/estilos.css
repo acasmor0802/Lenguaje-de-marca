@@ -93,28 +93,29 @@
     gap: 2rem;
   }
   
-  .sign-in,
-  .register {
+  a.sign-in, a.register {
     padding: 0.5rem 2rem;
     font-size: 1rem;
     border: none;
     border-radius: 0.5rem;
     cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none; 
   }
-  
-  .sign-in {
-    background-color: #ffffff;
-    color: #16161F;
+
+  a.sign-in {
+      background-color: #ffffff;
+      color: #16161F;
   }
-  
-  .register {
-    background-color: #16161F;
-    color: white;
+
+  a.register {
+      background-color: #16161F;
+      color: white;
   }
-  
-  .sign-in:hover,
-  .register:hover {
-    opacity: 0.9;
+
+  a.sign-in:hover, a.register:hover {
+      opacity: 0.9;
   }
 
 
