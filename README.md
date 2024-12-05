@@ -30,5 +30,12 @@ CSS se utiliza para definir el diseño y estilo de las páginas web. Permite per
 Markdown es un lenguaje de marcado ligero ideal para crear contenido de texto rápidamente. Con una sintaxis simple, convierte texto plano en HTML, lo que lo hace perfecto para documentación o blogs sin diseños complejos. Es fácil de aprender y se puede integrar con herramientas para generar HTML automáticamente, ahorrando tiempo en la escritura de código.
 
 
+
 ## CAMBIOS DE WIREFRAME A HTML/CSS
 En la mayoria de wireframes he realizado errores o simplemente he tomado malas decisiones de diseño, como por ejemplo creando varios menus, o por otra parte intentando hacer algunas paginas que resultarían muy complejas, como hacer un mapa interactivo con el poco tiempo con el que contaba para aprender a crearlo y que funcionara correctamente. Por eso he tomado la decisión de cambiar la mayoria de wireframes y funcionalidades.
+
+
+
+## Fase 3: Implementación y Validación del Código
+El código ha sido validado realizando cambios en el header (cambiando los botones de registrar e iniciar sesión, cambiando asi el CSS tambien) o en el footer(introducir el footer en el body)
+Sin embargo mediante el @media he logrado hacer que funcione en cualquier dispositivo esta página.
